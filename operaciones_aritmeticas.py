@@ -1,4 +1,4 @@
-class Suma:
+class OperacionesAritmeticas:
     pass
     def __init__(self, operando1, operando2):
         self.operando1 = operando1
@@ -6,6 +6,8 @@ class Suma:
 
     def calcularSuma(self):
         return self.operando1 + self.operando2
+    def calcularDivision(self):
+        return self.operando1 / self.operando2
 
 
 
